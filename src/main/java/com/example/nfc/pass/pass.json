@@ -1,0 +1,39 @@
+{
+  "description" : "Apple Wallet Pass",
+  "formatVersion" : 1,
+  "organizationName" : "OrgName",
+  "passTypeIdentifier" : "pass.com.rahul.nambiar",
+  "serialNumber" : "1234567890",
+  "teamIdentifier" : "ABCDEFGHIJ",
+  "backgroundColor" : "rgb(205, 225, 248)",
+  "foregroundColor" : "rgb(0, 0, 0)",
+  "labelColor" : "rgb(0, 0, 0)",
+  "generic" : {
+    "headerFields" : [ {
+      "key" : "status",
+      "label" : "STATUS",
+      "value" : "Active",
+      "textAlignment" : "PKTextAlignmentCenter"
+    } ],
+    "primaryFields" : [ {
+      "key" : "user-name",
+      "value" : "RAHUL NAMBIAR",
+      "textAlignment" : "PKTextAlignmentCenter"
+    } ],
+    "auxiliaryFields" : [ {
+      "key" : "org",
+      "label" : "ORGANIZATION",
+      "value" : "Organization",
+      "textAlignment" : "PKTextAlignmentLeft"
+    } ],
+    "backFields" : [ {
+      "key" : "name",
+      "label" : "Name",
+      "value" : "Rahul Nambiar"
+    }, {
+      "key" : "org",
+      "label" : "Organization",
+      "value" : "Organization"
+    } ]
+  }
+}

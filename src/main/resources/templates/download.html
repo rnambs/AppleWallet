@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Download Pass</title>
+</head>
+<body>
+    <script>
+        var form = document.createElement("form");
+        form.setAttribute("method", "post");
+        form.setAttribute("action", "/pass");
+        document.body.appendChild(form);
+        form.submit(); //on submit, this triggers a POST to /pass
+    </script>
+</body>
+</html>
